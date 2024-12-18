@@ -1,16 +1,5 @@
 # Simple Memo
 
-React 독학을 어느정도 진행한 시점에서 간단한 프로젝트를 진행해야 할 필요성을 느꼈다.
-
-이론과 간단한 예제를 작성해보는 것 만으로는 내용을 전부 익히기 어려울 것 같았고 직접 뭔가를 만들어가며 몸으로 익혀야겠다고 생각했다.
-
-프로젝트를 진행하기로 결심했으나 가장 중요한 무엇을 만들 것인지가 빠져있었다.
-평소 ToDo List를 자주 사용하기 때문에 ToDo List 웹앱을 제작해볼까 했는데 이왕 만들거면 ToDo List보다 더 많은 내용을 작성할 수 있는 메모장을 만들어보자 해서 메모 웹앱으로 결정하였다.
-
-[Simple Memo](https://simplememo.netlify.app/)
-
-<br />
-
 ## 컴포넌트 트리
 
 ```
@@ -126,32 +115,3 @@ focus 시 확장되며 입력받은 내용을 `<MemoList />` 컴포넌트에 전
 삭제 버튼을 클릭 시 출력되며 모달창의 확인 버튼을 클릭하여 메모를 삭제할 수 있다.
 
 닫기 / 취소 / 외부 여백을 클릭하여 삭제를 취소하고 모달창을 닫을 수 있다.
-
-<br/>
-
-## 스크린샷
-
-### PC 크롬
-
-![](https://images.velog.io/images/drrobot409/post/19f164e1-c3f3-4ad0-a2d7-e4a522d4c064/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-12-08%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.38.33.png)
-
-### PC 크롬 (창 축소)
-
-![](https://images.velog.io/images/drrobot409/post/5275af21-c1ad-4297-ae27-ceae0f5f9808/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-12-08%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.37.13.png)
-
-### 모바일
-
-_iPhone 11 pro 구동 화면, 기기 이미지는 iPhone X_
-![](https://images.velog.io/images/drrobot409/post/e31b74c9-9c72-4be6-a394-d44d9a82d61e/Simple-Memo-iPhone-notch-2.png)
-
-## 그 외
-
-- CRA, classnames, scss, gsap, eslint, prettier, husky, lint-staged, netlify 등을 사용하여 진행했다.
-
-- 사용한 색상은 다음과 같다.
-  ![](https://images.velog.io/images/drrobot409/post/f4335a0d-36bf-409e-858d-4578b24e9268/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-12-07%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%204.05.06.png)
-  - #463f3a
-  - #f4f3ee
-  - #bcb8b1
-  - #8a817c
-  - #e0afa0

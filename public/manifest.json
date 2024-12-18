@@ -1,0 +1,20 @@
+{
+  "short_name": "Simple Memo",
+  "name": "Simple Memo",
+  "icons": [
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#f4f3ee",
+  "background_color": "#f4f3ee"
+}

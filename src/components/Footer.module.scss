@@ -1,0 +1,40 @@
+@media screen and (max-width: 340px) {
+  .container {
+    font-size: 12px !important;
+  }
+}
+.container {
+  $dark-brown: #463f3a;
+
+  font-family: "Kalam", cursive;
+  color: $dark-brown;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  .copyright {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    white-space: nowrap;
+    margin: {
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 1vh;
+    }
+  }
+  .guide {
+    word-break: keep-all;
+    text-align: center;
+    padding: {
+      top: 0;
+      left: 5px;
+      right: 5px;
+      bottom: 0;
+    }
+  }
+}

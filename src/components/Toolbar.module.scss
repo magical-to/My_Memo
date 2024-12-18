@@ -1,0 +1,160 @@
+@media screen and (max-width: 340px) {
+  .text--disappear {
+    display: none;
+  }
+}
+
+.container {
+  $dark-brown: #463f3a;
+  $white: #f4f3ee;
+  $light-gray: #bcb8b1;
+  $gray: #8a817c;
+  $pink: #e0afa0;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  z-index: 1;
+  display: flex;
+  flex-shrink: 0;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 50px;
+  border-radius: 5px 5px 0 0;
+  word-break: keep-all;
+  background-color: $gray;
+  font-family: "Kalam", cursive;
+  margin: {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+  }
+  padding: {
+    top: 0;
+    left: 10px;
+    right: 10px;
+    left: 10px;
+  }
+  .tool--right {
+    display: flex;
+    flex-grow: 0;
+    justify-content: flex-end;
+  }
+  .tool--left {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-start;
+    // border: 1px solid red;
+  }
+  .search {
+    transition: all 0.2s;
+    flex-grow: 0;
+    width: 60px;
+    height: 29px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 900;
+    background-color: $dark-brown;
+    color: $white;
+    cursor: pointer;
+    padding: {
+      top: 5px;
+      left: 5px;
+      right: 5px;
+      bottom: 5px;
+    }
+    margin: {
+      top: 5px;
+      left: 5px;
+      right: 0;
+      bottom: 5px;
+    }
+    &::placeholder {
+      font-family: "Kalam", cursive;
+      color: $white;
+    }
+    &:hover {
+      transform: translate(1px, 1px);
+      background-color: $white;
+      color: $dark-brown;
+      &::placeholder {
+        color: $dark-brown;
+      }
+    }
+    &:focus {
+      flex-grow: 1;
+      background-color: whitesmoke;
+      color: $dark-brown;
+      cursor: auto;
+      &::placeholder {
+        color: $dark-brown;
+      }
+    }
+  }
+  .btn {
+    transition: transform 0.2s;
+    border-radius: 5px;
+    font-weight: 900;
+    text-align: center;
+    text-decoration-line: none;
+    background-color: $dark-brown;
+    color: $white;
+    cursor: pointer;
+    padding: {
+      top: 8px;
+      left: 5px;
+      right: 5px;
+      bottom: 5px;
+    }
+    margin: {
+      top: 5px;
+      left: 5px;
+      right: 0px;
+      bottom: 5px;
+    }
+    &:hover {
+      transform: translate(1px, 1px);
+      background-color: $white;
+      color: $dark-brown;
+    }
+    &.btn--list {
+      width: 60px;
+    }
+    &.btn--input {
+      white-space: nowrap;
+    }
+    &.btn--delete {
+      background-color: $pink;
+      color: $dark-brown;
+      margin: {
+        top: 0;
+        left: 5px;
+        right: 5px;
+        bottom: 0;
+      }
+      &:hover {
+        background-color: $white;
+        color: $pink;
+      }
+    }
+    &.btn--cancel {
+      background-color: $light-gray;
+      color: $dark-brown;
+      margin: {
+        top: 0;
+        left: 0;
+        right: 5px;
+        bottom: 0;
+      }
+      &:hover {
+        background-color: $white;
+      }
+    }
+  }
+}
